@@ -2,7 +2,7 @@ import Foundation
 
 struct API {
     // Optional: set to raw GitHub URL for data/puzzles.json
-    static let apiBaseURL = "https://raw.githubusercontent.com/OWNER/REPO/BRANCH/data/puzzles.json"
+    static let apiBaseURL = "https://raw.githubusercontent.com/ikihsotono/news-word-puzzle/main/data/puzzles.json"
 
     static func fetchPuzzles() async throws -> PuzzlePayload {
         if let url = URL(string: apiBaseURL), apiBaseURL.contains("githubusercontent.com") {
