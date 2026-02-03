@@ -5,6 +5,11 @@ on:
     # Run hourly; script gates at 07:00 America/Los_Angeles
     - cron: "0 * * * *"
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Force generation (ignore time gate)"
+        required: false
+        default: "false"
 
 jobs:
   generate:
@@ -24,6 +29,7 @@ jobs:
         env:
           NWP_CONFIG: backend/config.json
           NWP_OUTPUT: data/puzzles.json
+          NWP_FORCE: ${{ inputs.force == 'true' && '1' || '0' }}
         run: |
           python3 backend/run_daily.py
 
