@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-03T08:53:37.360719+00:00",
+  "generated_at": "2026-02-03T09:03:45.760961+00:00",
   "generated_for_date": "2026-02-03",
   "puzzles": [
     {
@@ -20,20 +20,6 @@
       "article": {
         "source": "cnbc",
         "rank_hint": "breaking",
-        "title": "New York AG issues warning around prediction markets ahead of Super Bowl",
-        "summary": "New York Attorney General Letitia James is cautioning all New Yorkers about placing trades on prediction markets ahead of the Super Bowl.",
-        "url": "https://www.cnbc.com/2026/02/02/new-york-ag-prediction-markets-super-bowl-warning.html",
-        "published": "Mon, 02 Feb 2026 21:26:16 GMT"
-      },
-      "questionText": "New York AG issues warning around prediction markets ahead of Super _____",
-      "answer": "Bowl",
-      "hint": "noun",
-      "difficulty": "medium"
-    },
-    {
-      "article": {
-        "source": "cnbc",
-        "rank_hint": "breaking",
         "title": "Is silver a meme trade? How the metal became 'GameStop in 2026'",
         "summary": "Silver's rapid surge and equally dramatic reversal ignited questions among investors: when does an asset start behaving like a meme?",
         "url": "https://www.cnbc.com/2026/02/03/gamestop-in-2026-how-silver-market-has-morphed-into-meme-trading-.html",
@@ -42,21 +28,7 @@
       "questionText": "Is silver a meme trade? How the metal became 'GameStop in _____",
       "answer": "2026'",
       "hint": "noun",
-      "difficulty": "medium"
-    },
-    {
-      "article": {
-        "source": "cnbc",
-        "rank_hint": "business",
-        "title": "New York AG issues warning around prediction markets ahead of Super Bowl",
-        "summary": "New York Attorney General Letitia James is cautioning all New Yorkers about placing trades on prediction markets ahead of the Super Bowl.",
-        "url": "https://www.cnbc.com/2026/02/02/new-york-ag-prediction-markets-super-bowl-warning.html",
-        "published": "Mon, 02 Feb 2026 21:26:16 GMT"
-      },
-      "questionText": "New York AG issues warning around prediction markets ahead of Super _____",
-      "answer": "Bowl",
-      "hint": "noun",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "article": {
@@ -71,6 +43,34 @@
       "answer": "intact",
       "hint": "noun",
       "difficulty": "medium"
+    },
+    {
+      "article": {
+        "source": "cnbc",
+        "rank_hint": "breaking",
+        "title": "'Devil in the details': India-U.S. deal raises hopes for a reset — but the fine print remains unclear",
+        "summary": "The U.S. and India have finalized a trade deal on Monday after months of negotiations, steadying a relationship that had plummeted to its lowest point in decades.",
+        "url": "https://www.cnbc.com/2026/02/03/us-india-trade-framework-tariffs-reset-modi-trump-new-delhi-russian-oil-venezuela.html",
+        "published": "Tue, 03 Feb 2026 08:26:50 GMT"
+      },
+      "questionText": "'Devil in the details': India-U.S. deal raises hopes for a reset — but the fine print remains _____",
+      "answer": "unclear",
+      "hint": "noun",
+      "difficulty": "medium"
+    },
+    {
+      "article": {
+        "source": "cnbc",
+        "rank_hint": "breaking",
+        "title": "Nintendo keeps Switch 2 forecast as device sales pass 17 million units",
+        "summary": "Investors are weighing the impact of rising memory prices and the strength of Nintendo’s games pipeline ahead of the Switch 2.",
+        "url": "https://www.cnbc.com/2026/02/03/nintendo-q3-earnings-switch-2-forecast.html",
+        "published": "Tue, 03 Feb 2026 08:11:58 GMT"
+      },
+      "questionText": "Nintendo keeps Switch 2 forecast as device sales pass 17 million _____",
+      "answer": "units",
+      "hint": "noun",
+      "difficulty": "easy"
     }
   ]
 }
