@@ -3,7 +3,8 @@ import os
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from email.utils import parsedate_to_datetime
-from urllib.request import urlopen
+from urllib.request import urlopen, Request
+from urllib.error import HTTPError, URLError
 import xml.etree.ElementTree as ET
 
 CONFIG_PATH = os.environ.get("NWP_CONFIG", "backend/config.json")
@@ -122,8 +123,18 @@ def fetch_feed_items(feeds, max_items=30):
             with open(url, "r", encoding="utf-8") as f:
                 xml_text = f.read()
         else:
-            with urlopen(url, timeout=10) as resp:
-                xml_text = resp.read().decode("utf-8", errors="ignore")
+            try:
+                req = Request(
+                    url,
+                    headers={
+                        "User-Agent": "NewsWordPuzzleBot/0.1 (+https://github.com/ikihsotono/news-word-puzzle)"
+                    },
+                )
+                with urlopen(req, timeout=10) as resp:
+                    xml_text = resp.read().decode("utf-8", errors="ignore")
+            except (HTTPError, URLError):
+                # Skip feeds that block or fail.
+                continue
 
         parsed_items = parse_feed_xml(xml_text)
         for entry in parsed_items[:max_items]:
