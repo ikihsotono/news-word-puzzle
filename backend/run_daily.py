@@ -196,12 +196,18 @@ def generate_puzzles(items, min_puzzles, max_puzzles):
     # TODO: Replace with LLM-based generator.
     # For now, produce placeholder puzzles from titles only.
     puzzles = []
+    seen = set()
     for item in rank_items(items):
         if len(puzzles) >= max_puzzles:
             break
         title = item["title"].strip()
         if not title:
             continue
+        url = item.get("url", "").strip()
+        key = url or title
+        if key in seen:
+            continue
+        seen.add(key)
         # Placeholder: mask the last word
         words = title.split()
         if len(words) < 3:
@@ -209,18 +215,44 @@ def generate_puzzles(items, min_puzzles, max_puzzles):
         answer = words[-1].strip(".,:;!?")
         if not answer:
             continue
+        if is_person_like(answer, title):
+            continue
         question = " ".join(words[:-1] + ["_____"])
         puzzles.append({
             "article": item,
             "questionText": question,
             "answer": answer,
             "hint": "noun",
-            "difficulty": "medium",
+            "difficulty": classify_difficulty(answer),
         })
     if len(puzzles) < min_puzzles:
         # If we cannot generate enough, return what we have.
         return puzzles
     return puzzles[:max_puzzles]
+
+
+def classify_difficulty(answer):
+    cleaned = "".join(ch for ch in answer if ch.isalpha())
+    length = len(cleaned)
+    if length <= 5:
+        return "easy"
+    if length <= 9:
+        return "medium"
+    return "hard"
+
+
+def is_person_like(answer, title):
+    # Heuristic: if the answer is capitalized in title and appears
+    # as part of a two-word capitalized sequence (e.g., "Elon Musk"),
+    # treat it as a person name.
+    words = title.split()
+    for i in range(len(words) - 1):
+        w1 = words[i].strip(".,:;!?")
+        w2 = words[i + 1].strip(".,:;!?")
+        if w2.lower() == answer.lower():
+            if w1[:1].isupper() and w2[:1].isupper():
+                return True
+    return False
 
 
 def main():

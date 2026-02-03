@@ -37,6 +37,9 @@ struct TodayView: View {
                             }
                         }
                     }
+                    .refreshable {
+                        await load()
+                    }
                 } else {
                     Text("No puzzles yet")
                         .foregroundColor(.secondary)
