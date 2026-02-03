@@ -1,46 +1,74 @@
 {
-  "generated_at": "2026-02-03T07:49:56.854425+00:00",
-  "generated_for_date": "2026-02-02",
+  "generated_at": "2026-02-03T08:53:37.360719+00:00",
+  "generated_for_date": "2026-02-03",
   "puzzles": [
     {
       "article": {
-        "source": "sample",
-        "rank_hint": "top",
-        "title": "Markets open higher as investors eye earnings",
-        "summary": "Major indexes rose with tech leading gains.",
-        "url": "https://example.com/markets-open",
-        "published": "Mon, 02 Feb 2026 18:00:00 GMT"
+        "source": "cnbc",
+        "rank_hint": "breaking",
+        "title": "Japan stocks jump over 3% to record high as Asia markets rebound",
+        "summary": "Asia-Pacific markets rose after U.S. President Donald Trump said Washington and India had struck a trade deal.",
+        "url": "https://www.cnbc.com/2026/02/03/asia-pacific-markets-nifty-50-kospi-nikkei-225-india-trade-deal.html",
+        "published": "Tue, 03 Feb 2026 08:23:31 GMT"
       },
-      "questionText": "Markets open higher as investors eye _____",
-      "answer": "earnings",
+      "questionText": "Japan stocks jump over 3% to record high as Asia markets _____",
+      "answer": "rebound",
       "hint": "noun",
       "difficulty": "medium"
     },
     {
       "article": {
-        "source": "sample",
-        "rank_hint": "top",
-        "title": "Fed hints at slower pace of rate hikes",
-        "summary": "Policy makers signaled a slower pace amid cooling inflation.",
-        "url": "https://example.com/fed-hints",
-        "published": "Tue, 03 Feb 2026 12:00:00 GMT"
+        "source": "cnbc",
+        "rank_hint": "breaking",
+        "title": "New York AG issues warning around prediction markets ahead of Super Bowl",
+        "summary": "New York Attorney General Letitia James is cautioning all New Yorkers about placing trades on prediction markets ahead of the Super Bowl.",
+        "url": "https://www.cnbc.com/2026/02/02/new-york-ag-prediction-markets-super-bowl-warning.html",
+        "published": "Mon, 02 Feb 2026 21:26:16 GMT"
       },
-      "questionText": "Fed hints at slower pace of rate _____",
-      "answer": "hikes",
+      "questionText": "New York AG issues warning around prediction markets ahead of Super _____",
+      "answer": "Bowl",
       "hint": "noun",
       "difficulty": "medium"
     },
     {
       "article": {
-        "source": "sample",
-        "rank_hint": "top",
-        "title": "US payroll growth surprises to the upside",
-        "summary": "Hiring accelerated in January, while wages held steady.",
-        "url": "https://example.com/payroll-growth",
-        "published": "Tue, 03 Feb 2026 09:00:00 GMT"
+        "source": "cnbc",
+        "rank_hint": "breaking",
+        "title": "Is silver a meme trade? How the metal became 'GameStop in 2026'",
+        "summary": "Silver's rapid surge and equally dramatic reversal ignited questions among investors: when does an asset start behaving like a meme?",
+        "url": "https://www.cnbc.com/2026/02/03/gamestop-in-2026-how-silver-market-has-morphed-into-meme-trading-.html",
+        "published": "Tue, 03 Feb 2026 04:36:02 GMT"
       },
-      "questionText": "US payroll growth surprises to the _____",
-      "answer": "upside",
+      "questionText": "Is silver a meme trade? How the metal became 'GameStop in _____",
+      "answer": "2026'",
+      "hint": "noun",
+      "difficulty": "medium"
+    },
+    {
+      "article": {
+        "source": "cnbc",
+        "rank_hint": "business",
+        "title": "New York AG issues warning around prediction markets ahead of Super Bowl",
+        "summary": "New York Attorney General Letitia James is cautioning all New Yorkers about placing trades on prediction markets ahead of the Super Bowl.",
+        "url": "https://www.cnbc.com/2026/02/02/new-york-ag-prediction-markets-super-bowl-warning.html",
+        "published": "Mon, 02 Feb 2026 21:26:16 GMT"
+      },
+      "questionText": "New York AG issues warning around prediction markets ahead of Super _____",
+      "answer": "Bowl",
+      "hint": "noun",
+      "difficulty": "medium"
+    },
+    {
+      "article": {
+        "source": "cnbc",
+        "rank_hint": "breaking",
+        "title": "Gold and silver rebound after historic wipeout as analysts say thematic drivers stay intact",
+        "summary": "Gold and silver prices rebounded after suffering a historic selloff, with analysts suggesting that the recent violent correction was more a positioning reset.",
+        "url": "https://www.cnbc.com/2026/02/03/gold-and-silver-rebound-after-historic-wipeout-as-analysts-say-thematic-drivers-stay-intact-.html",
+        "published": "Tue, 03 Feb 2026 08:26:52 GMT"
+      },
+      "questionText": "Gold and silver rebound after historic wipeout as analysts say thematic drivers stay _____",
+      "answer": "intact",
       "hint": "noun",
       "difficulty": "medium"
     }
