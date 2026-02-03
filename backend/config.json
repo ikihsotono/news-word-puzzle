@@ -1,0 +1,81 @@
+{
+  "timezone": "America/Los_Angeles",
+  "daily_hour": 7,
+  "daily_window_minutes": 20,
+  "max_puzzles": 5,
+  "min_puzzles": 3,
+  "feeds": [
+    {
+      "source": "cnbc",
+      "type": "rss",
+      "rank_hint": "breaking",
+      "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"
+    },
+    {
+      "source": "cnbc",
+      "type": "rss",
+      "rank_hint": "business",
+      "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10001147"
+    },
+    {
+      "source": "cnbc",
+      "type": "rss",
+      "rank_hint": "economy",
+      "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"
+    },
+    {
+      "source": "cnbc",
+      "type": "rss",
+      "rank_hint": "finance",
+      "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664"
+    },
+    {
+      "source": "cnbc",
+      "type": "rss",
+      "rank_hint": "investing",
+      "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=15839069"
+    },
+    {
+      "source": "cnbc",
+      "type": "rss",
+      "rank_hint": "wealth",
+      "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10001054"
+    },
+    {
+      "source": "cnbc",
+      "type": "rss",
+      "rank_hint": "personal-finance",
+      "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=21324812"
+    },
+    {
+      "source": "cnbc",
+      "type": "rss",
+      "rank_hint": "financial-advisors",
+      "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100646281"
+    },
+    {
+      "source": "cnbc",
+      "type": "rss",
+      "rank_hint": "market-insider",
+      "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20409666"
+    },
+    {
+      "source": "federalreserve",
+      "type": "rss",
+      "rank_hint": "top",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml"
+    },
+    {
+      "source": "bls",
+      "type": "rss",
+      "rank_hint": "top",
+      "url": "https://www.bls.gov/feed/bls_latest.rss"
+    },
+    {
+      "source": "bea",
+      "type": "rss",
+      "rank_hint": "top",
+      "url": "https://apps.bea.gov/rss/rss.xml"
+    }
+  ]
+}

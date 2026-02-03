@@ -1,0 +1,24 @@
+{
+  "timezone": "America/Los_Angeles",
+  "daily_hour": 7,
+  "daily_window_minutes": 20,
+  "max_puzzles": 5,
+  "min_puzzles": 3,
+  "feeds": [
+    {
+      "source": "federalreserve",
+      "type": "rss",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml"
+    },
+    {
+      "source": "bls",
+      "type": "rss",
+      "url": "https://www.bls.gov/feed/bls_latest.rss"
+    },
+    {
+      "source": "bea",
+      "type": "rss",
+      "url": "https://apps.bea.gov/rss/rss.xml"
+    }
+  ]
+}

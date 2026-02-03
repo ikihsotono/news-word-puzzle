@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-02-03T07:00:00-08:00",
+  "generated_for_date": "2026-02-03",
+  "puzzles": [
+    {
+      "article": {
+        "source": "sample",
+        "rank_hint": "top",
+        "title": "Fed hints at slower pace of rate hikes",
+        "summary": "Policy makers signaled a slower pace amid cooling inflation.",
+        "url": "https://example.com/fed-hints",
+        "published": "Tue, 03 Feb 2026 12:00:00 GMT"
+      },
+      "questionText": "Fed hints at slower pace of rate _____",
+      "answer": "hikes",
+      "hint": "noun",
+      "difficulty": "medium"
+    },
+    {
+      "article": {
+        "source": "sample",
+        "rank_hint": "top",
+        "title": "US payroll growth surprises to the upside",
+        "summary": "Hiring accelerated in January, while wages held steady.",
+        "url": "https://example.com/payroll-growth",
+        "published": "Tue, 03 Feb 2026 09:00:00 GMT"
+      },
+      "questionText": "US payroll growth surprises to the _____",
+      "answer": "upside",
+      "hint": "noun",
+      "difficulty": "medium"
+    },
+    {
+      "article": {
+        "source": "sample",
+        "rank_hint": "top",
+        "title": "Markets open higher as investors eye earnings",
+        "summary": "Major indexes rose with tech leading gains.",
+        "url": "https://example.com/markets-open",
+        "published": "Mon, 02 Feb 2026 18:00:00 GMT"
+      },
+      "questionText": "Markets open higher as investors eye _____",
+      "answer": "earnings",
+      "hint": "noun",
+      "difficulty": "medium"
+    }
+  ]
+}

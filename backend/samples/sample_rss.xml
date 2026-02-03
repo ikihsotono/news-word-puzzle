@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample Business RSS</title>
+    <item>
+      <title>Fed hints at slower pace of rate hikes</title>
+      <link>https://example.com/fed-hints</link>
+      <description>Policy makers signaled a slower pace amid cooling inflation.</description>
+      <pubDate>Tue, 03 Feb 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>US payroll growth surprises to the upside</title>
+      <link>https://example.com/payroll-growth</link>
+      <description>Hiring accelerated in January, while wages held steady.</description>
+      <pubDate>Tue, 03 Feb 2026 09:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Markets open higher as investors eye earnings</title>
+      <link>https://example.com/markets-open</link>
+      <description>Major indexes rose with tech leading gains.</description>
+      <pubDate>Mon, 02 Feb 2026 18:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

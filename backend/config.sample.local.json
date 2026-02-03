@@ -1,0 +1,15 @@
+{
+  "timezone": "America/Los_Angeles",
+  "daily_hour": 7,
+  "daily_window_minutes": 60,
+  "max_puzzles": 5,
+  "min_puzzles": 3,
+  "feeds": [
+    {
+      "source": "sample",
+      "type": "rss",
+      "rank_hint": "top",
+      "url": "file:///Users/toshiki/project/NewsWordPuzzle/backend/samples/sample_rss.xml"
+    }
+  ]
+}
