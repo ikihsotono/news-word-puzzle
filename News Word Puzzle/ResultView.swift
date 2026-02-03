@@ -1,10 +1,9 @@
 import SwiftUI
-import SafariServices
 
 struct ResultView: View {
     let puzzle: Puzzle
     let isCorrect: Bool
-    @State private var showSafari = false
+    @Environment(\.openURL) private var openURL
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -18,26 +17,15 @@ struct ResultView: View {
                 .font(.body)
 
             Button("Read the original article") {
-                showSafari = true
+                if let url = URL(string: puzzle.article.url) {
+                    openURL(url)
+                }
             }
+            .disabled(URL(string: puzzle.article.url) == nil)
 
             Spacer()
         }
         .padding()
         .navigationTitle("Result")
-        .sheet(isPresented: $showSafari) {
-            SafariView(url: URL(string: puzzle.article.url)!)
-        }
-    }
-}
-
-struct SafariView: UIViewControllerRepresentable {
-    let url: URL
-
-    func makeUIViewController(context: Context) -> SFSafariViewController {
-        SFSafariViewController(url: url)
-    }
-
-    func updateUIViewController(_ uiViewController: SFSafariViewController, context: Context) {
     }
 }
