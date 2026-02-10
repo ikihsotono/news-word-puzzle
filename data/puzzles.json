@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-02-03T09:03:45.760961+00:00",
-  "generated_for_date": "2026-02-03",
+  "generated_at": "2026-02-10T15:00:09.894431+00:00",
+  "generated_for_date": "2026-02-10",
   "puzzles": [
     {
       "article": {
         "source": "cnbc",
         "rank_hint": "breaking",
-        "title": "Japan stocks jump over 3% to record high as Asia markets rebound",
-        "summary": "Asia-Pacific markets rose after U.S. President Donald Trump said Washington and India had struck a trade deal.",
-        "url": "https://www.cnbc.com/2026/02/03/asia-pacific-markets-nifty-50-kospi-nikkei-225-india-trade-deal.html",
-        "published": "Tue, 03 Feb 2026 08:23:31 GMT"
+        "title": "CVS tops quarterly estimates, reaffirms profit outlook as turnaround plan takes effect",
+        "summary": "The results signal steady progress in the health-care giant's aggressive turnaround plan under CEO David Joyner, who stepped into the role in late 2024.",
+        "url": "https://www.cnbc.com/2026/02/10/cvs-health-earnings-q4-2025.html",
+        "published": "Tue, 10 Feb 2026 14:51:09 GMT"
       },
-      "questionText": "Japan stocks jump over 3% to record high as Asia markets _____",
-      "answer": "rebound",
+      "questionText": "CVS tops quarterly estimates, reaffirms profit outlook as turnaround plan takes _____",
+      "answer": "effect",
       "hint": "noun",
       "difficulty": "medium"
     },
@@ -20,13 +20,13 @@
       "article": {
         "source": "cnbc",
         "rank_hint": "breaking",
-        "title": "Is silver a meme trade? How the metal became 'GameStop in 2026'",
-        "summary": "Silver's rapid surge and equally dramatic reversal ignited questions among investors: when does an asset start behaving like a meme?",
-        "url": "https://www.cnbc.com/2026/02/03/gamestop-in-2026-how-silver-market-has-morphed-into-meme-trading-.html",
-        "published": "Tue, 03 Feb 2026 04:36:02 GMT"
+        "title": "Paramount sweetens WBD bid, but stops short of raising its per-share value",
+        "summary": "Paramount has sweetened its offer for Warner Bros. Discovery, adding a so-called \"ticking fee\" to signal regulatory confidence among other new elements.",
+        "url": "https://www.cnbc.com/2026/02/10/paramount-sweetens-wbd-bid-stops-short-of-raising-value-.html",
+        "published": "Tue, 10 Feb 2026 14:10:40 GMT"
       },
-      "questionText": "Is silver a meme trade? How the metal became 'GameStop in _____",
-      "answer": "2026'",
+      "questionText": "Paramount sweetens WBD bid, but stops short of raising its per-share _____",
+      "answer": "value",
       "hint": "noun",
       "difficulty": "easy"
     },
@@ -34,13 +34,13 @@
       "article": {
         "source": "cnbc",
         "rank_hint": "breaking",
-        "title": "Gold and silver rebound after historic wipeout as analysts say thematic drivers stay intact",
-        "summary": "Gold and silver prices rebounded after suffering a historic selloff, with analysts suggesting that the recent violent correction was more a positioning reset.",
-        "url": "https://www.cnbc.com/2026/02/03/gold-and-silver-rebound-after-historic-wipeout-as-analysts-say-thematic-drivers-stay-intact-.html",
-        "published": "Tue, 03 Feb 2026 08:26:52 GMT"
+        "title": "Here are 10 things the Club is watching in the stock market Tuesday",
+        "summary": "We're keeping an eye on chip stocks like Nvidia after Taiwan Semi reported earnings.",
+        "url": "https://www.cnbc.com/2026/02/10/here-are-10-things-to-watch-in-the-stock-market-tuesday.html",
+        "published": "Tue, 10 Feb 2026 14:07:07 GMT"
       },
-      "questionText": "Gold and silver rebound after historic wipeout as analysts say thematic drivers stay _____",
-      "answer": "intact",
+      "questionText": "Here are 10 things the Club is watching in the stock market _____",
+      "answer": "Tuesday",
       "hint": "noun",
       "difficulty": "medium"
     },
@@ -48,13 +48,13 @@
       "article": {
         "source": "cnbc",
         "rank_hint": "breaking",
-        "title": "'Devil in the details': India-U.S. deal raises hopes for a reset — but the fine print remains unclear",
-        "summary": "The U.S. and India have finalized a trade deal on Monday after months of negotiations, steadying a relationship that had plummeted to its lowest point in decades.",
-        "url": "https://www.cnbc.com/2026/02/03/us-india-trade-framework-tariffs-reset-modi-trump-new-delhi-russian-oil-venezuela.html",
-        "published": "Tue, 03 Feb 2026 08:26:50 GMT"
+        "title": "Alphabet calls out new AI-related risks, as it taps debt market to fund build-out",
+        "summary": "In Alphabet's annual report, the company said AI poses business risks, including its potential impact on advertising.",
+        "url": "https://www.cnbc.com/2026/02/09/alphabet-highlights-new-ai-related-risks-in-tapping-debt-market.html",
+        "published": "Tue, 10 Feb 2026 07:01:17 GMT"
       },
-      "questionText": "'Devil in the details': India-U.S. deal raises hopes for a reset — but the fine print remains _____",
-      "answer": "unclear",
+      "questionText": "Alphabet calls out new AI-related risks, as it taps debt market to fund _____",
+      "answer": "build-out",
       "hint": "noun",
       "difficulty": "medium"
     },
@@ -62,15 +62,15 @@
       "article": {
         "source": "cnbc",
         "rank_hint": "breaking",
-        "title": "Nintendo keeps Switch 2 forecast as device sales pass 17 million units",
-        "summary": "Investors are weighing the impact of rising memory prices and the strength of Nintendo’s games pipeline ahead of the Switch 2.",
-        "url": "https://www.cnbc.com/2026/02/03/nintendo-q3-earnings-switch-2-forecast.html",
-        "published": "Tue, 03 Feb 2026 08:11:58 GMT"
+        "title": "Property Play: How this French building behemoth wants to solve the U.S. housing dilemma",
+        "summary": "Saint-Gobain is focusing on speed and affordability in construction through materials, assembly and other tools, according to North America CEO Mark Rayfield.",
+        "url": "https://www.cnbc.com/2026/02/10/saint-gobain-us-housing-dilemma.html",
+        "published": "Tue, 10 Feb 2026 14:57:14 GMT"
       },
-      "questionText": "Nintendo keeps Switch 2 forecast as device sales pass 17 million _____",
-      "answer": "units",
+      "questionText": "Property Play: How this French building behemoth wants to solve the U.S. housing _____",
+      "answer": "dilemma",
       "hint": "noun",
-      "difficulty": "easy"
+      "difficulty": "medium"
     }
   ]
 }
